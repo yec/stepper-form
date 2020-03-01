@@ -42,6 +42,17 @@ const Introduction = () => {
             <Typography gutterBottom variant="h5" component="h2">
               Introduction
           </Typography>
+
+            <Typography variant="subtitle1" component="p">
+              Material UI
+              Redux toolkit
+</Typography>
+
+            <Typography variant="body1" component="p">
+              Material UI
+              Redux toolkit
+</Typography>
+
             <Typography variant="body2" color="textSecondary" component="p">
               I agree to the terms and conditions
           </Typography>
