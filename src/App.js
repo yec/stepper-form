@@ -32,14 +32,16 @@ export default function App() {
           left: 0,
           bottom: 0,
           right: 0,
-          height: 80,
+          height: 60,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center'
         }}
       >
-        <Typography variant='h5' gutterBottom>
+        <Typography variant='body1' gutterBottom>
           <a target="_blank" href="https://github.com/yec/stepper-form">Github</a>
+          {' '}
+          <a target="_blank" href="mailto:yechuah@gmail.com">yechuah@gmail.com</a>
         </Typography>
       </div>
     </>
