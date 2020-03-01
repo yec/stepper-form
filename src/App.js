@@ -26,6 +26,22 @@ export default function App() {
         <StepHandler step={1}><Details /></StepHandler>
         <StepHandler step={2}><Complete /></StepHandler>
       </Layout>
+      <div
+        style={{
+          position: 'fixed',
+          left: 0,
+          bottom: 0,
+          right: 0,
+          height: 80,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <Typography variant='h5' gutterBottom>
+          <a target="_blank" href="https://github.com/yec/stepper-form">Github</a>
+        </Typography>
+      </div>
     </>
   );
 }
